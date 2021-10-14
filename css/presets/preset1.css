@@ -1,0 +1,383 @@
+/* Global styles
+================================================== */
+
+a {
+	color: var(--primary-color);
+}
+
+a.read-more:hover {
+	color: #327cbc;
+}
+
+/* Typography
+================================================== */
+
+.btn.btn-primary {
+	border: 2px solid var(--primary-color);
+}
+
+.btn.btn-primary:hover {
+	background: var(--primary-color);
+}
+
+.btn.btn-primary.solid {
+	background: var(--primary-color);
+}
+
+ul.circle li:before {
+	color: var(--primary-color);
+}
+
+ul.check-list li i {
+	color: var(--primary-color);
+}
+
+blockquote {
+	border-left: 5px solid var(--primary-color);
+}
+
+/* Common styles
+================================================== */
+
+.heading:hover .title-icon {
+	color: var(--primary-color);
+}
+
+h2.entry-title a:hover {
+	color: var(--primary-color);
+}
+
+/* Icon pentagon */
+
+.icon-pentagon {
+	background: none repeat scroll 0 0 var(--primary-color);
+}
+
+.icon-pentagon:before {
+	border-bottom: 10px solid var(--primary-color);
+}
+
+.icon-pentagon:after {
+	border-top: 10px solid var(--primary-color);
+}
+
+.service-icon:before {
+	border-bottom: 30px solid var(--primary-color);
+}
+
+.service-icon:after {
+	border-top: 30px solid var(--primary-color);
+}
+
+/* Carousel controller */
+
+.ts-carousel-controller .left:hover, .ts-carousel-controller .right:hover, .owl-controls .owl-prev:hover, .owl-controls .owl-next:hover {
+	background: var(--primary-color);
+}
+
+/* Input form */
+
+.form-control:focus {
+	border: 1px solid #49a2e7 !important;
+}
+
+/* Flex Slider */
+
+.portfolio-slider .flex-direction-nav a:hover, .second-slider .flex-direction-nav a:hover {
+	background: var(--primary-color);
+}
+
+/* Pagination */
+
+.pagination>.active>a, .pagination>.active>a:hover, .pagination>li>a:hover {
+	background: var(--primary-color);
+}
+
+/* Header area
+================================================== */
+
+/*-- Header --*/
+
+.header {
+	border-top: 5px solid var(--primary-color);
+}
+
+.header-solid ul.navbar-nav>li:hover>a, .header-solid ul.navbar-nav>li.active>a {
+	color: var(--primary-color);
+}
+
+/*-- Logo --*/
+
+.navbar-brand {
+	/* background: var(--primary-color); */
+}
+
+/*-- Main navigation --*/
+
+ul.navbar-nav>li:hover>a, ul.navbar-nav>li.active>a {
+	color: var(--primary-color);
+}
+
+.navbar-toggle {
+	background: var(--primary-color);
+}
+
+.dropdown-menu>ul>li.active>a {
+	color: var(--primary-color);
+}
+
+.dropdown-menu>ul>li>a:hover, .dropdown-menu>ul>li>a:focus {
+	color: var(--primary-color);
+}
+
+/* Header area - 2
+================================================== */
+
+/*-- Header bgnone fixed --*/
+
+.header-bgnone {
+	background: var(--primary-color);
+}
+
+/* Slideshow
+================================================== */
+
+/*-- Main slide --*/
+
+#main-slide .carousel-indicators li.active, #main-slide .carousel-indicators li:hover {
+	background-color: var(--primary-color);
+}
+
+#main-slide .carousel-control i:hover {
+	background: var(--primary-color);
+}
+
+/* Image Block
+================================================== */
+
+.image-block-content .feature-icon {
+	background: var(--primary-color);
+}
+
+/* Portfolio
+================================================== */
+
+.isotope-nav ul li a {
+	border: 1px solid var(--primary-color);
+}
+
+.isotope-nav ul a.active, .isotope-nav ul a:hover {
+	background: var(--primary-color);
+}
+
+.isotope-nav ul a.active:after, .isotope-nav ul a:hover:after {
+	border-color: #49a2e7 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0);
+}
+
+/* Feature box
+================================================== */
+
+.feature-icon {
+	color: var(--primary-color);
+}
+
+.feature-center-icon {
+	color: var(--primary-color);
+}
+
+/* About us
+================================================== */
+
+/* Featured Tab */
+
+.featured-tab .nav-tabs>li.active>a {
+	background: var(--primary-color);
+}
+
+.featured-tab .nav-tabs>li.active>a:after {
+	border-left-color: var(--primary-color);
+}
+
+.featured-tab .nav-tabs>li>a:hover {
+	background: var(--primary-color);
+	color: #fff;
+}
+
+.featured-tab .nav-tabs>li>a:hover:after {
+	border-left-color: var(--primary-color);
+}
+
+/* Pricing table
+================================================== */
+
+.plan.featured .plan-price {
+	background: var(--primary-color);
+}
+
+.plan.featured .plan-price:after {
+	border-top-color: var(--primary-color);
+}
+
+/* Testimonial
+================================================== */
+
+.testimonial-slide .testimonial-text:before {
+	color: var(--primary-color);
+}
+
+.testimonial-slide .testimonial-text:after {
+	color: var(--primary-color);
+}
+
+.testimonial-slide.owl-theme .owl-controls .owl-page.active span {
+	background: var(--primary-color);
+}
+
+/* Recent Post
+================================================== */
+
+.post-img-overlay a:hover {
+	background: var(--primary-color);
+}
+
+/* Footer
+================================================== */
+
+.copyright-info a:hover {
+	color: var(--primary-color);
+}
+
+.footer2 .copyright-info a {
+	color: var(--primary-color);
+}
+
+#back-to-top .btn.btn-primary:hover {
+	background: var(--primary-color);
+}
+
+.footer-about-us h4 {
+	color: var(--primary-color);
+}
+
+.footer-widget .latest-post-content h4 a:hover {
+	color: var(--primary-color);
+}
+
+.subscribe button {
+	background: var(--primary-color);
+}
+
+/* Blog Item page
+================================================== */
+
+.post-meta a:hover {
+	color: var(--primary-color);
+}
+
+.author-url span a:hover {
+	color: var(--primary-color);
+}
+
+.comments-counter a:hover {
+	color: var(--primary-color);
+}
+
+.comments-list .comment-reply:hover {
+	color: var(--primary-color);
+}
+
+/*-- Blog sidebar --*/
+
+.widget-tab .nav-tabs>li.active>a {
+	background: var(--primary-color);
+}
+
+.widget-tab h4.entry-title a:hover {
+	color: var(--primary-color);
+}
+
+.widget-tags ul>li a:hover {
+	background: var(--primary-color);
+}
+
+/* Landing page
+================================================== */
+
+.landing-header.header-bgnone ul.navbar-nav>li:hover>a, .landing-header.header-bgnone ul.navbar-nav>li.active>a {
+	color: var(--primary-color);
+}
+
+.features-content .features-icon {
+	color: var(--primary-color);
+}
+
+.landing_facts {
+	background: var(--primary-color);
+}
+
+.landing-tab .nav-tabs>li.active {
+	border-right: 5px solid var(--primary-color);
+}
+
+.landing-tab .nav-tabs>li.active>a i {
+	color: var(--primary-color);
+}
+
+.landing-tab .nav-tabs>li>a:hover {
+	color: #49a2e7 !important;
+}
+
+.landing-tab .tab-pane i.big {
+	color: var(--primary-color);
+}
+
+.app-gallery.owl-theme .owl-controls .owl-page.active span {
+	background: var(--primary-color);
+}
+
+.landing_page_clients {
+	background: var(--primary-color);
+}
+
+/* Misc */
+
+.title-border {
+	border-bottom: 2px solid var(--primary-color);
+}
+
+.post-title a:hover {
+	color: var(--primary-color);
+}
+
+.portfolio-static-desc a:hover {
+	color: var(--primary-color);
+}
+
+.client-carousel .item a:hover {
+	border: 1px solid var(--primary-color);
+}
+
+.footer ul li a:hover {
+	color: var(--primary-color);
+}
+
+.call-to-action {
+	background: var(--primary-color);
+}
+
+.blog-date {
+	background: var(--primary-color);
+}
+
+.widget-categories ul.category-list li a:hover {
+	color: var(--primary-color);
+}
+
+.about-message ul li a:hover {
+	color: var(--primary-color);
+}
+
+:root {
+	--primary-color: #4B9CD6;
+	--secondary-color: #ffcb47;
+}
