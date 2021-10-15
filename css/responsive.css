@@ -319,7 +319,8 @@
 	}
 	.navbar-brand.navbar-bg img{
 		background-size: contain;
-		width: 160px;
+		width: 185px !important;
+		margin-top: -10px !important;
 	}
 
 	/* Navigation */
