@@ -669,10 +669,16 @@ blockquote {
 	position: absolute;
 	left: 0;
 	padding: 3px 15px 10px;
-	width: 20%;
+	/* width: 20%; */
+	width: 100%;
 	height: 62px;
 	line-height: 62px;
+}
 
+.header-solid .navbar-bg {
+	background-color: #191919;
+	/* -webkit-backdrop-filter: saturate(120%) blur(2px); */
+	/* backdrop-filter: saturate(120%) blur(2px); */
 }
 
 .navbar-brand img{

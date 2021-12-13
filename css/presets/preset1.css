@@ -120,6 +120,7 @@ ul.navbar-nav>li:hover>a, ul.navbar-nav>li.active>a {
 
 .navbar-toggle {
 	background: var(--primary-color);
+	visibility: hidden;
 }
 
 .dropdown-menu>ul>li.active>a {
